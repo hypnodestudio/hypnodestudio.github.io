@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #24304a;
+  background: #e7eaf8;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+a {
+  color: #33407a;
+}
+
+a:hover {
+  color: #1e274d;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.page {
+  width: min(40rem, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 4.5rem 0 6rem;
+}
+
+h1 {
+  margin: 0.35rem 0 0;
+  font-family: Palatino, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-size: clamp(2.4rem, 5vw, 3.25rem);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.brand {
+  margin: 0.85rem 0 0;
+  color: #5c6794;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  gap: 1.1rem;
+  margin-top: 1.75rem;
+  font-size: 0.95rem;
+}
+
+nav a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+footer {
+  margin-top: 2.25rem;
+  color: #66708f;
+  font-size: 0.92rem;
+}
+
+footer p:last-child {
+  margin-bottom: 0;
+}
