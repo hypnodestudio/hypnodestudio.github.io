@@ -1,0 +1,13 @@
+.store {
+  margin: 1.35rem 0 0;
+}
+
+.store-badge {
+  display: inline-block;
+  line-height: 0;
+}
+
+.store-badge img {
+  height: 40px;
+  width: auto;
+}
